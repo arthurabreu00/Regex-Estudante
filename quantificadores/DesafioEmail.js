@@ -7,6 +7,6 @@ Os e-mails dos convidados são:
     - xico@gmail.com ... 
 `;
 
-const regex = /\w*@\w*\.\w{2,4}/gi 
+const regex = /\w*@\w*\.\w{2,}\.? /gi 
 
 console.log(texto.match(regex));
