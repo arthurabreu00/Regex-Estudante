@@ -13,4 +13,6 @@ console.log(texto.match(/^.{6,20}$/gm));
 // Se há letra maiúscula.
 console.log(texto.match(/^(?=.*[A-Z]).{6,20}$/gm))
 
-//
+// Senha complexa
+console.log(texto.match(/^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[@#$!^&*]).{6,20}$/gm));
+
